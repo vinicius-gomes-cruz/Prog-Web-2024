@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curso Introdutório de HTML5</title>
+    <link rel="stylesheet" href="aula.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header>
+        <h1>Curso Introdutório de HTML5</h1>
+        <nav>
+            <ul class="listas">
+                <li><button><a href="#sobre"><i data-feather="home"></i>Sobre</a></button></li>
+                <li><button><a href="#conteudo"><i data-feather="package"></i>Conteúdo</a></button></li>
+                <li><button><a href="#inscricao"><i data-feather="at-sign"></i>Inscrição</a></button></li>
+                <li><button><a href="#contato"><i data-feather="mail"></i>Contato</a></button></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre o Curso</h2>
+        <p>O curso introdutório de HTML5 é projetado para iniciantes que desejam aprender os fundamentos do HTML5 para criar páginas da web. Não são necessários conhecimentos prévios.</p>
+    </section>
+
+    <section id="conteudo">
+        <h2>Conteúdo do Curso</h2>
+        <ul>
+            <li>Introdução ao HTML5</li>
+            <li>Estrutura básica de uma página HTML</li>
+            <li>Tags HTML5 semânticas</li>
+            <li>Formulários HTML5</li>
+            <li>Multimídia com HTML5</li>
+            <li>Estilizando com CSS3</li>
+        </ul>
+    </section>
+
+    <section id="inscricao">
+        <h2>Inscrição</h2>
+        <p>Para se inscrever no curso, preencha o formulário abaixo:</p>
+        <form>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <input type="submit" value="Inscrever">
+        </form>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <p>Para mais informações, entre em contato conosco:</p>
+        <p>Email: exemplo@cursohtml5.com</p>
+        <p>Telefone: (00) 1234-5678</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Curso Introdutório de HTML5</p>
+        <div>
+            <i class="instagram" data-feather="instagram"></i>
+            <i class="twitter" data-feather="twitter"></i>
+            <i class="facebook" data-feather="facebook"></i>
+        </div>
+    </footer>
+    <script>
+        feather.replace();
+    </script>
+</body>
+</html>
